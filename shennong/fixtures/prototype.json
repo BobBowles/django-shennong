@@ -1,0 +1,4128 @@
+[
+    {
+        "pk": "1",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "养血生发",
+            "pinyin": "Yǎng Xiě Shēng Fā",
+            "english": "Nourishing Hair Growth"
+        }
+    },
+    {
+        "pk": "2",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "川芎茶调",
+            "pinyin": "Chuān Xiōng Chá Diào",
+            "english": "Headache"
+        }
+    },
+    {
+        "pk": "3",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "坤宝",
+            "pinyin": "Kūn Bǎo",
+            "english": "Menopause Symptoms, Hot Flushes, Night Sweats, Insomnia, Irritability"
+        }
+    },
+    {
+        "pk": "4",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "桃红四物",
+            "pinyin": "Táo Hóng Sì Wù",
+            "english": "Activating the Blood"
+        }
+    },
+    {
+        "pk": "5",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "金锁固金",
+            "pinyin": "Jīn Suǒ Gù Jīn",
+            "english": "Kidney, Generative Functions"
+        }
+    },
+    {
+        "pk": "6",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "三黄",
+            "pinyin": "Sān Huáng",
+            "english": "Sore Throat, Swelling and pain, Upper Respiratory Problems, Inflammation, Boils"
+        }
+    },
+    {
+        "pk": "7",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "六味地黄",
+            "pinyin": "Liù Wèi Dì Huáng",
+            "english": "Weakness, Lower Back, Hair Growth, Weak Legs, Hot Sweats"
+        }
+    },
+    {
+        "pk": "8",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "金贵肾气",
+            "pinyin": "Jīn Guì Shèn Qì",
+            "english": "Fatigue, Libido, Kidneys"
+        }
+    },
+    {
+        "pk": "9",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "知母地黄",
+            "pinyin": "Zhī Mǔ Dì Huáng",
+            "english": "Night Sweating, Spontaneous Sweating, Dry Mouth, Nose & Tongue, Gout"
+        }
+    },
+    {
+        "pk": "10",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "白癜风",
+            "pinyin": "Bái Diàn Fēng",
+            "english": "Vitiligo"
+        }
+    },
+    {
+        "pk": "11",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "香沙养胃",
+            "pinyin": "Xiāng Shā Yǎng Wèi",
+            "english": "Hyperchlorhydria, Anorexia, Stomach Problems"
+        }
+    },
+    {
+        "pk": "12",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "加味逍遥",
+            "pinyin": "Jiā Wèi Xiāo Yáo",
+            "english": "Depression, Menopause, Stress, Anxiety"
+        }
+    },
+    {
+        "pk": "13",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "调经",
+            "pinyin": "Tiáo Jīng",
+            "english": "Period Pains"
+        }
+    },
+    {
+        "pk": "14",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "通石",
+            "pinyin": "Tōng Shí",
+            "english": "Gallstones, etc."
+        }
+    },
+    {
+        "pk": "15",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "睾丸通",
+            "pinyin": "Gāo Wán Tōng",
+            "english": "Testicle Pain"
+        }
+    },
+    {
+        "pk": "16",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "杞菊地黄",
+            "pinyin": "Qǐ Jú Dì Huáng",
+            "english": "High Blood Pressure, Dry Eyes, Eye Disorders"
+        }
+    },
+    {
+        "pk": "17",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "天麻钩藤",
+            "pinyin": "Tiān Má Gōu Téng",
+            "english": "Lower Blood Pressure"
+        }
+    },
+    {
+        "pk": "18",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "五味消毒",
+            "pinyin": "Wǔ Wèi Xiāo Dú",
+            "english": "Clear Blood, Boils, Sore Throat, Urethritis, Ulcers"
+        }
+    },
+    {
+        "pk": "19",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "独活寄生",
+            "pinyin": "Dú Huó Jì Shēng",
+            "english": "Digestive Disorders"
+        }
+    },
+    {
+        "pk": "20",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": " 酸枣仁",
+            "pinyin": "Suān Zǎo Rén",
+            "english": "Nourish Blood, Improve Sleep, Insomnia"
+        }
+    },
+    {
+        "pk": "21",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "黄连解毒",
+            "pinyin": "Huáng Lián Jiě Dú",
+            "english": "Septicemia, Dysentery, Pneumonia, Urinary Infections, Purulent Skin Lesions"
+        }
+    },
+    {
+        "pk": "22",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "润肠",
+            "pinyin": "Rùn Cháng",
+            "english": "Constipation"
+        }
+    },
+    {
+        "pk": "23",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "化痰止咳",
+            "pinyin": "Huà Tán Zhǐ Ké",
+            "english": "Chronic Discomfort, Lung Function"
+        }
+    },
+    {
+        "pk": "24",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "皮癣净",
+            "pinyin": "Pí Xuǎn Jìng",
+            "english": "Psoriasis"
+        }
+    },
+    {
+        "pk": "25",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "百合固金",
+            "pinyin": "Bǎi Hé Gù Jīn",
+            "english": "Pulmonary Fibrosis, Bronchiectasis, Cough In Children, General Coughing"
+        }
+    },
+    {
+        "pk": "26",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "痤疮",
+            "pinyin": "Cuó Chuāng",
+            "english": "Acne"
+        }
+    },
+    {
+        "pk": "27",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "特效鼻敏感",
+            "pinyin": "Tè Xiào Bí Mǐn Gǎn",
+            "english": "Nasal Allergies, Rhinitis, Sinusitis"
+        }
+    },
+    {
+        "pk": "28",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "定喘化痰",
+            "pinyin": "Dìng Chuǎn Huà Tán",
+            "english": "Lung Problems, Cough Relief"
+        }
+    },
+    {
+        "pk": "29",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "何首乌",
+            "pinyin": "Hé Shǒu Wū",
+            "english": "Hearing Loss, Kidney Problems, Spermatorrhea, Strengthen Liver And Kidney"
+        }
+    },
+    {
+        "pk": "30",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "皮肤止痒散",
+            "pinyin": "Pí Fū Zhǐ Yǎng Sàn",
+            "english": "Skin Antipruritic"
+        }
+    },
+    {
+        "pk": "31",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "五味消毒",
+            "pinyin": "Wǔ Wèi Xiāo Dú",
+            "english": "Genital Herpes, Dermatitis, Sores, Ulcers, Inflammations, Urinary Tract Infections, Shingles"
+        }
+    },
+    {
+        "pk": "32",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "龙胆泻肝",
+            "pinyin": "Lóng Dǎn Xiè Gān",
+            "english": "Eczema, Corneal Ulcers, Oral Lichen Planus, Scrotum Eczema, Seborrheic Dermatitis, Shingles"
+        }
+    },
+    {
+        "pk": "33",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "关节炎",
+            "pinyin": "Guānjié Yán",
+            "english": "Joint Pain, Arthritis"
+        }
+    },
+    {
+        "pk": "34",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "快孕",
+            "pinyin": "Kuài Yùn",
+            "english": "Quick Pregnancy"
+        }
+    },
+    {
+        "pk": "35",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "参灵草",
+            "pinyin": "Cān Líng Cǎo",
+            "english": "Heart, Liver, Kidney, Brain, Energy"
+        }
+    },
+    {
+        "pk": "36",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "化痔",
+            "pinyin": "Huà Zhì",
+            "english": "Haemorrhoids"
+        }
+    },
+    {
+        "pk": "37",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "胃痛",
+            "pinyin": "Wèi Tòng",
+            "english": "Stomach Ache"
+        }
+    },
+    {
+        "pk": "38",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "防风通圣",
+            "pinyin": "Fángfēng Tōng Shèng",
+            "english": "Itching, Rubella, Urticaria"
+        }
+    },
+    {
+        "pk": "39",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "皮癣",
+            "pinyin": "Pí Xuǎn",
+            "english": "Psoriasis"
+        }
+    },
+    {
+        "pk": "40",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "甘麦大枣",
+            "pinyin": "Gān Mài Dà Zǎo",
+            "english": "Neurathenia, Menopausal Hot Flushes And Night Sweating"
+        }
+    },
+    {
+        "pk": "41",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "金黄散",
+            "pinyin": "Jīn Huáng Sàn",
+            "english": "Tendonitis"
+        }
+    },
+    {
+        "pk": "42",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "黄連解毒",
+            "pinyin": "Huáng Lián Jiě Dú",
+            "english": "Anal Eczema"
+        }
+    },
+    {
+        "pk": "43",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "自汗症",
+            "pinyin": "Zì Hàn Zhèng",
+            "english": "Spontaneous Sweating Disease"
+        }
+    },
+    {
+        "pk": "44",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "知柏地黄",
+            "pinyin": "Zhī Bǎi Dì Huáng",
+            "english": "Blood Pressure, Lower Back Pain, Gout, Fatigue"
+        }
+    },
+    {
+        "pk": "45",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "香连",
+            "pinyin": "Xiāng Lián",
+            "english": "Abdomen, Diarrhea, IBS"
+        }
+    },
+    {
+        "pk": "46",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "祛痰止咳",
+            "pinyin": "Qū Tán Zhǐ Ké",
+            "english": "Cough"
+        }
+    },
+    {
+        "pk": "47",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "更年平",
+            "pinyin": "Gēng Nián Píng",
+            "english": "Menopause"
+        }
+    },
+    {
+        "pk": "48",
+        "model": "shennong.recipe",
+        "fields": {
+            "chinese": "输卵通",
+            "pinyin": "Shū Luǎn Tōng",
+            "english": "Closed Fallopian Tubes, Fibroid Ovarians"
+        }
+    },
+    {
+        "pk": "1",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "生地黄",
+            "pinyin": "Shēng Dì Huáng",
+            "latin": "Radix Rehmanniae",
+            "english": "Rehmannia Root"
+        }
+    },
+    {
+        "pk": "2",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "熟地黄",
+            "pinyin": "Shú Dì Huáng",
+            "latin": "Radix Rehmanniae Preparata",
+            "english": "Prepared Rehmannia Root"
+        }
+    },
+    {
+        "pk": "3",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "天麻",
+            "pinyin": "Tiān Má",
+            "latin": "Rhizoma Gastrodiae",
+            "english": "Tall Gastrodia Root"
+        }
+    },
+    {
+        "pk": "4",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "旱莲草",
+            "pinyin": "Hàn Lián Cǎo",
+            "latin": "Herba Ecliptae",
+            "english": "Yerbadetajo Herb"
+        }
+    },
+    {
+        "pk": "5",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "鸡血藤",
+            "pinyin": "Jī Xuè Téng",
+            "latin": "Caulis Spatholobi",
+            "english": "Suberect Spatholobus Stem"
+        }
+    },
+    {
+        "pk": "6",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "木瓜",
+            "pinyin": "Mù Guā",
+            "latin": "Fructus Chaenomelis",
+            "english": "Common Flowering Quince Fruit"
+        }
+    },
+    {
+        "pk": "7",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "何首乌",
+            "pinyin": "Hé Shǒu Wū",
+            "latin": "Radix Polygoni Multiflori",
+            "english": "Fleeceflower Root"
+        }
+    },
+    {
+        "pk": "8",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "黄芪",
+            "pinyin": "Huáng Qí",
+            "latin": "Radix Astragali",
+            "english": "Mongolian Milkvetch Root"
+        }
+    },
+    {
+        "pk": "9",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "川芎",
+            "pinyin": "Chuān Xiōng",
+            "latin": "Rhizoma Ligustici Chuanxiong",
+            "english": "Szechuan Lovage Rhizome"
+        }
+    },
+    {
+        "pk": "10",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "白芍",
+            "pinyin": "Bái Sháo",
+            "latin": "Radix Paeoniae Alba",
+            "english": "White Peony Root"
+        }
+    },
+    {
+        "pk": "11",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "白芷",
+            "pinyin": "Bái Zhǐ",
+            "latin": "Angelica Daurica",
+            "english": "Dahurian Angelica Root"
+        }
+    },
+    {
+        "pk": "12",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "甘草",
+            "pinyin": "Gān Cǎo",
+            "latin": "Radix Glycyrrhizae",
+            "english": "Liquorice Root"
+        }
+    },
+    {
+        "pk": "13",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "羌活",
+            "pinyin": "Qiāng Huó",
+            "latin": "Rhizoma Seu Radix Notopterygii",
+            "english": "Incised Notopterygium Rhizome And Root"
+        }
+    },
+    {
+        "pk": "14",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "荆芥",
+            "pinyin": "Jīng Jiè",
+            "latin": "Schizonepeta Tenuifolia",
+            "english": "Fineleaf Schizonepeta Herb"
+        }
+    },
+    {
+        "pk": "15",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "防风",
+            "pinyin": "Fáng Fēng",
+            "latin": "Saposhnikovia Divaricata",
+            "english": "Divaricate Saposhnikovia Root"
+        }
+    },
+    {
+        "pk": "16",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "薄荷葉",
+            "pinyin": "Bò Hé Yè",
+            "latin": "Mentha Haplocalyx",
+            "english": "Mint Leaf"
+        }
+    },
+    {
+        "pk": "17",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "女贞子",
+            "pinyin": "Nǚ Zhēn Zi",
+            "latin": "Fructus Ligustri Lucidi",
+            "english": "Glossy Privet Fruit"
+        }
+    },
+    {
+        "pk": "18",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "枸杞子",
+            "pinyin": "Gǒu Qǐ Zi",
+            "latin": "Fructus Lycii",
+            "english": "Chinese Wolf Berry"
+        }
+    },
+    {
+        "pk": "19",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "麦冬",
+            "pinyin": "Mài Dōng",
+            "latin": "Radix Ophiopogonis",
+            "english": "Dwarf Lilyturf Tuber"
+        }
+    },
+    {
+        "pk": "20",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "当归",
+            "pinyin": "Dāng Guī",
+            "latin": "Radix Angelicae Sinensis",
+            "english": "Chinese Angelica Root"
+        }
+    },
+    {
+        "pk": "21",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "知母",
+            "pinyin": "Zhī Mǔ",
+            "latin": "Rhizoma Anemarrhenae",
+            "english": "Common Anemarrhena Rhizome"
+        }
+    },
+    {
+        "pk": "22",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "桃仁",
+            "pinyin": "Táo Rén",
+            "latin": "Semen Persicae",
+            "english": "Peach Seed"
+        }
+    },
+    {
+        "pk": "23",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "沙苑子",
+            "pinyin": "Shā Yuàn Zi",
+            "latin": "Semen Astragali Complanati",
+            "english": "Flastem Milkvetch Seed, Astragalus Seed"
+        }
+    },
+    {
+        "pk": "24",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "芡實",
+            "pinyin": "Qiàn Shí",
+            "latin": "Semen Euryales",
+            "english": "Gorgon Fruit"
+        }
+    },
+    {
+        "pk": "25",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "莲子",
+            "pinyin": "Lián Zǐ",
+            "latin": "Semen Nelumbinis",
+            "english": "Lotus Seed"
+        }
+    },
+    {
+        "pk": "26",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "莲须",
+            "pinyin": "Lián Xū",
+            "latin": "Stamen Nelumbinis",
+            "english": "Lotus Stamen"
+        }
+    },
+    {
+        "pk": "27",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "金樱子",
+            "pinyin": "Jīn Yīng Zi",
+            "latin": "Fructus Rosae Laevigatae",
+            "english": "Cherokee Rose Hips"
+        }
+    },
+    {
+        "pk": "28",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "覆盆子",
+            "pinyin": "Fù Pén Zi",
+            "latin": "Fructus Rubi",
+            "english": "Palmleaf Raspberry Fruit"
+        }
+    },
+    {
+        "pk": "29",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "黄芩",
+            "pinyin": "Huáng Qín",
+            "latin": "Radix Scutellariae",
+            "english": "Baical Skullcap Root"
+        }
+    },
+    {
+        "pk": "30",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "黄柏",
+            "pinyin": "Huáng Bò",
+            "latin": "Cortex Phellodendri",
+            "english": "Amur Corktree Bark"
+        }
+    },
+    {
+        "pk": "31",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "黄连",
+            "pinyin": "Huáng Lián",
+            "latin": "Rhizoma Coptidis",
+            "english": "Chinese Goldthread Rhizome"
+        }
+    },
+    {
+        "pk": "32",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "山茱萸",
+            "pinyin": "Shān Zhū Yú",
+            "latin": "Fructus Corni",
+            "english": "Common Macrocarpium Fruit"
+        }
+    },
+    {
+        "pk": "33",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "山藥,山药",
+            "pinyin": "Shān Yào",
+            "latin": "Rhizoma Dioscoreae",
+            "english": "Chinese Yam"
+        }
+    },
+    {
+        "pk": "34",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "茯苓",
+            "pinyin": "Fú Líng",
+            "latin": "Sclerotum Poriae Cocos",
+            "english": "Poria, Indian Bread"
+        }
+    },
+    {
+        "pk": "35",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "泽泻",
+            "pinyin": "Zé Xiè",
+            "latin": "Rhizoma Alismatis",
+            "english": "Oriental Waterplantain Rhizome"
+        }
+    },
+    {
+        "pk": "36",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "牡丹皮",
+            "pinyin": "Mǔ Dān Pí",
+            "latin": "Cortex Moutan",
+            "english": "Peony Bark"
+        }
+    },
+    {
+        "pk": "37",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "桂枝",
+            "pinyin": "Guì Zhī",
+            "latin": "Ramulus Cinnamomi",
+            "english": "Cassia Twig"
+        }
+    },
+    {
+        "pk": "38",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "赤芍",
+            "pinyin": "Chì Sháo",
+            "latin": "Radix Paeoniae Rubra",
+            "english": "Red Peony Root"
+        }
+    },
+    {
+        "pk": "39",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "补骨脂",
+            "pinyin": "Bǔ Gǔ Zhī",
+            "latin": "Fructus Psoraleae",
+            "english": "Babchi seeds,Malaytea Scurfpea Fruit"
+        }
+    },
+    {
+        "pk": "40",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "红花",
+            "pinyin": "Hóng Huā",
+            "latin": "Flos Carthami",
+            "english": "Safflower"
+        }
+    },
+    {
+        "pk": "41",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "砂仁",
+            "pinyin": "Shā Rén",
+            "latin": "Fructus Amomi",
+            "english": "Cocklebur-like Amomum Fruit"
+        }
+    },
+    {
+        "pk": "42",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "白术",
+            "pinyin": "Bái Zhú",
+            "latin": "Rhizoma Atractylodis Macrocephalae",
+            "english": "Largehead Atractylodes Rhizome"
+        }
+    },
+    {
+        "pk": "43",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "陈皮,橘皮",
+            "pinyin": "Chén Pí, Jú Pí",
+            "latin": "Pericarpium Citri Reticulatae",
+            "english": "Orange Peel"
+        }
+    },
+    {
+        "pk": "44",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "制半夏",
+            "pinyin": "Zhì Bàn Xià",
+            "latin": "Rhizoma Pinelliae Preparatum",
+            "english": "Cooked Pinellia Tuber"
+        }
+    },
+    {
+        "pk": "45",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "香附",
+            "pinyin": "Xiāng Fù",
+            "latin": "Rhizoma Cyperi",
+            "english": "Nutgrass Galingale Rhizome"
+        }
+    },
+    {
+        "pk": "46",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "厚朴",
+            "pinyin": "Hòu Pǔ",
+            "latin": "Cortex Magnoliae Officinalis",
+            "english": "Officinal Magnolia Bark"
+        }
+    },
+    {
+        "pk": "47",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "柴胡",
+            "pinyin": "Chái Hú",
+            "latin": "Radix Bupleuri",
+            "english": "Red Thorowax Root, Chinese Thorowax Root"
+        }
+    },
+    {
+        "pk": "48",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "三七",
+            "pinyin": "Sān Qī",
+            "latin": "Radix Notoginseng",
+            "english": "Notoginseng Root"
+        }
+    },
+    {
+        "pk": "49",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "小茴香",
+            "pinyin": "Xiǎo Huí Xiāng",
+            "latin": "Fructus Foeniculi",
+            "english": "Fennel Fruit"
+        }
+    },
+    {
+        "pk": "50",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "木香",
+            "pinyin": "Mù Xiāng",
+            "latin": "Radix Aucklandiae",
+            "english": "Aucklandia Root"
+        }
+    },
+    {
+        "pk": "51",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "金钱草",
+            "pinyin": "Jīn Qián Cǎo",
+            "latin": "Herba Lysimachiae",
+            "english": "Desmodium"
+        }
+    },
+    {
+        "pk": "52",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "益母草",
+            "pinyin": "Yì Mǔ Cǎo",
+            "latin": "Herba Leonuri",
+            "english": "Motherwort Herb"
+        }
+    },
+    {
+        "pk": "53",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "瞿麦",
+            "pinyin": "Qú Mài",
+            "latin": "Herba Dianthi",
+            "english": "Dianthus Superbus"
+        }
+    },
+    {
+        "pk": "54",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "半枝莲",
+            "pinyin": "Bàn Zhī Lián",
+            "latin": "Radix Scutellariae Barbatae",
+            "english": "Barbed Skullcap Herb"
+        }
+    },
+    {
+        "pk": "55",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "肉苁蓉",
+            "pinyin": "Ròu Cōng Róng",
+            "latin": "Herba Cistanches",
+            "english": "Cistanche"
+        }
+    },
+    {
+        "pk": "56",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "生姜",
+            "pinyin": "Shēng Jiāng",
+            "latin": "Rhizoma Zingiberis Recens",
+            "english": "Ginger"
+        }
+    },
+    {
+        "pk": "57",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "龙胆草",
+            "pinyin": "Lóng Dǎn Cǎo",
+            "latin": "Radix Gentianae",
+            "english": "Chinese Gentian"
+        }
+    },
+    {
+        "pk": "58",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "菊花",
+            "pinyin": "Jú Huā",
+            "latin": "Flos Chrysanthemi",
+            "english": "Chrysanthemum Flower"
+        }
+    },
+    {
+        "pk": "59",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "钩藤",
+            "pinyin": "Gōu Téng",
+            "latin": "Ramulus Cum Uncis Uncariae",
+            "english": "Gambier, Cat's Claw"
+        }
+    },
+    {
+        "pk": "60",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "石决明",
+            "pinyin": "Shí Jué Míng",
+            "latin": "Concha Haliotidis",
+            "english": "Abalone Shell"
+        }
+    },
+    {
+        "pk": "61",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "栀子",
+            "pinyin": "Zhī Zi",
+            "latin": "Fructus Gardeniae",
+            "english": "Gardenia Fruit"
+        }
+    },
+    {
+        "pk": "62",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "牛膝,怀牛膝",
+            "pinyin": "Niú Xī, Huái Niú Xī",
+            "latin": "Radix Achyranthis Bidentatae",
+            "english": "Twotooth Achyranthes Root"
+        }
+    },
+    {
+        "pk": "63",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "杜仲",
+            "pinyin": "Dù Zhòng",
+            "latin": "Cortex Eucommiae",
+            "english": "Eucommia Bark"
+        }
+    },
+    {
+        "pk": "64",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "金银花",
+            "pinyin": "Jīn Yín Huā",
+            "latin": "Flos Lonicerae",
+            "english": "Honeysuckle Flower"
+        }
+    },
+    {
+        "pk": "65",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "野菊花",
+            "pinyin": "Yě Jú Huā",
+            "latin": "Flos Chrysanthemi Indici",
+            "english": "Wild Chrysanthemum Flower"
+        }
+    },
+    {
+        "pk": "66",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "蒲公英",
+            "pinyin": "Pú Gōng Yīng",
+            "latin": "Herba Taraxaci",
+            "english": "Mongolian Dandelion Herb"
+        }
+    },
+    {
+        "pk": "67",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "连翘",
+            "pinyin": "Lián Qiáo",
+            "latin": "Fructus Forsythiae",
+            "english": "Weeping Forsythiae Capsule"
+        }
+    },
+    {
+        "pk": "68",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "独活",
+            "pinyin": "Dú Huó",
+            "latin": "Angelicae Pubescentis",
+            "english": "Pubescent Angelica Root"
+        }
+    },
+    {
+        "pk": "69",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "秦艽",
+            "pinyin": "Qín Jiāo",
+            "latin": "Gentianae Macrophyllae",
+            "english": "Largeleaf Gentian Root, Straw-coloured Gentian Root"
+        }
+    },
+    {
+        "pk": "70",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "桑寄生",
+            "pinyin": "Sāng Jì Shēng",
+            "latin": "Herba Taxilli",
+            "english": "chinese Taxillus Twig, Mulberry Mistletoe"
+        }
+    },
+    {
+        "pk": "71",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "肉桂",
+            "pinyin": "Ròu Guì",
+            "latin": "Cortex Cinnamomi",
+            "english": "Cinnamon"
+        }
+    },
+    {
+        "pk": "72",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "酸枣仁",
+            "pinyin": "Suān Zǎo Rén",
+            "latin": "Ziziphi Spinosae",
+            "english": "Jujube Seed"
+        }
+    },
+    {
+        "pk": "73",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "火麻仁",
+            "pinyin": "Huǒ Má Rén",
+            "latin": "Semen Cannabis",
+            "english": "Hemp Seed"
+        }
+    },
+    {
+        "pk": "74",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "杏仁",
+            "pinyin": "Xìng Rén",
+            "latin": "Semen Armeniacae",
+            "english": "Bitter Apricot Seed"
+        }
+    },
+    {
+        "pk": "75",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "枳实",
+            "pinyin": "Zhǐ Shí",
+            "latin": "Fructus Aurantii Immaturus",
+            "english": "Immature Bitter Orange"
+        }
+    },
+    {
+        "pk": "76",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "干姜",
+            "pinyin": "Gān Jiāng",
+            "latin": "Rhizoma Zingiberis",
+            "english": "Dried Ginger"
+        }
+    },
+    {
+        "pk": "77",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "五味子",
+            "pinyin": "Wǔ Wèi Zi",
+            "latin": "Fructus Schisandrae",
+            "english": "Chinese Magnoliavine Fruit, Schisandra Fruit"
+        }
+    },
+    {
+        "pk": "78",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "半夏",
+            "pinyin": "Bàn Xià",
+            "latin": "Rhizoma Pinelliae",
+            "english": "Pinellia Tuber"
+        }
+    },
+    {
+        "pk": "79",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "艾叶",
+            "pinyin": "Ài Yè",
+            "latin": "Folium Artemisiae Argyi",
+            "english": "Argy Wormwood Leaf"
+        }
+    },
+    {
+        "pk": "80",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "土茯苓",
+            "pinyin": "Tǔ Fú Líng",
+            "latin": "Rhizoma Smilacis Glabrae",
+            "english": "Glabrous Greenbrier Rhizome, Smilax Tubers"
+        }
+    },
+    {
+        "pk": "81",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "百合",
+            "pinyin": "Bǎi Hé",
+            "latin": "Bulbus Lilii",
+            "english": "Lily Bulb"
+        }
+    },
+    {
+        "pk": "82",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "桔梗",
+            "pinyin": "Jié Gěng",
+            "latin": "Radix Platycodi",
+            "english": "Platycodon Root"
+        }
+    },
+    {
+        "pk": "83",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "玄参",
+            "pinyin": "Xuán Shēn",
+            "latin": "Radix Scrophulariae",
+            "english": "Figwort Root"
+        }
+    },
+    {
+        "pk": "84",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "川贝母",
+            "pinyin": "Chuān Bèi Mǔ",
+            "latin": "Bulbus Fritillariae Cirrhosae",
+            "english": "Unibract Fritillary Bulb"
+        }
+    },
+    {
+        "pk": "85",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "海藻",
+            "pinyin": "Hǎi Zǎo",
+            "latin": "Sargassum",
+            "english": "Seaweed"
+        }
+    },
+    {
+        "pk": "86",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "鸡冠花",
+            "pinyin": "Jī Guān Huā",
+            "latin": "Flos Celosiae Cristatae",
+            "english": "Cockscomb Flower"
+        }
+    },
+    {
+        "pk": "87",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "夏枯草",
+            "pinyin": "Xià Kū Cǎo",
+            "latin": "Spica Prunellae",
+            "english": "Common Selfheal Fruit-Spike"
+        }
+    },
+    {
+        "pk": "88",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "辛夷",
+            "pinyin": "Xīn Yí",
+            "latin": "Flos Magnoliae",
+            "english": "Biond Magnolia Flower"
+        }
+    },
+    {
+        "pk": "89",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "苍耳子",
+            "pinyin": "Cāng Ěr Zi",
+            "latin": "Fructus Xanthii",
+            "english": "Siberian Cocklebur Fruit"
+        }
+    },
+    {
+        "pk": "90",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "白果",
+            "pinyin": "Bái Guǒ",
+            "latin": "Semen Ginkgo",
+            "english": "Ginkgo Seed"
+        }
+    },
+    {
+        "pk": "91",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "麻黃",
+            "pinyin": "Má Huáng",
+            "latin": "Herba Ephedrae",
+            "english": "Ephedra Herb"
+        }
+    },
+    {
+        "pk": "92",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "紫苏子",
+            "pinyin": "Zǐ Sū Zi",
+            "latin": "Fructus Perillae",
+            "english": "Perilla Fruit"
+        }
+    },
+    {
+        "pk": "93",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "款冬花",
+            "pinyin": "Kuǎn Dōng Huā",
+            "latin": "Flos Farfarae",
+            "english": "Common Coltsfoot Flower"
+        }
+    },
+    {
+        "pk": "94",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "桑白皮",
+            "pinyin": "Sāng Bái Pí",
+            "latin": "Cortex Mori",
+            "english": "White Mulberry Root-bark"
+        }
+    },
+    {
+        "pk": "95",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "地肤子",
+            "pinyin": "Dì Fū Zi",
+            "latin": "Fructus Kochiae",
+            "english": "Belvedere Fruit, Broom Cypress Fruit, Kochia Fruit"
+        }
+    },
+    {
+        "pk": "96",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "菟丝子",
+            "pinyin": "Tú Sī Zi",
+            "latin": "Semen Cuscutae",
+            "english": "Chinese Dodder Seed"
+        }
+    },
+    {
+        "pk": "97",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "锁阳",
+            "pinyin": "Suǒ Yáng",
+            "latin": "Herba Cynomorii",
+            "english": "Songaria Cynomorium Herb"
+        }
+    },
+    {
+        "pk": "98",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "淫羊藿",
+            "pinyin": "Yín Yáng Huò",
+            "latin": "Herba Epimedii",
+            "english": "Epimedium, Barrenwort, Horny Goat Weed"
+        }
+    },
+    {
+        "pk": "99",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "蛇床子",
+            "pinyin": "Shé Chuáng Zi",
+            "latin": "Fructus Cnidii",
+            "english": "Common Cnidium Fruit, Monnier's Snowparsley Fruit"
+        }
+    },
+    {
+        "pk": "100",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "益智仁",
+            "pinyin": "Yì Zhì Rén",
+            "latin": "Fructus Alpiniae Oxyphyllae",
+            "english": "Sharpleaf Galangal Fruit"
+        }
+    },
+    {
+        "pk": "101",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "续断",
+            "pinyin": "Xù Duàn",
+            "latin": "Radix Dipsaci",
+            "english": "Himalayan Teasel Root"
+        }
+    },
+    {
+        "pk": "102",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "灵芝",
+            "pinyin": "Líng Zhī",
+            "latin": "Ganoderma Lucidum",
+            "english": "Reishi Mushroom"
+        }
+    },
+    {
+        "pk": "103",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "西洋参",
+            "pinyin": "Xī Yáng Shēn",
+            "latin": "Panax Quinquefolius",
+            "english": "American Ginseng"
+        }
+    },
+    {
+        "pk": "104",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "冬虫夏草",
+            "pinyin": "Dōng Chóng Xià Cǎo",
+            "latin": "Cordyceps Sinensis",
+            "english": "Cordyceps, Chinese Caterpillar Fungus"
+        }
+    },
+    {
+        "pk": "105",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "黑地榆",
+            "pinyin": "Hēi Dì Yú",
+            "latin": "Pimpinella Saxifraga Nigra",
+            "english": "Black Elm Root"
+        }
+    },
+    {
+        "pk": "106",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "槐花",
+            "pinyin": "Huái Huā",
+            "latin": "Flos Sophorae Immaturus",
+            "english": "Pagoda Tree Flower Bud"
+        }
+    },
+    {
+        "pk": "107",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "枳壳",
+            "pinyin": "Zhǐ Ké",
+            "latin": "Fructus Aurantii",
+            "english": "Bitter Orange"
+        }
+    },
+    {
+        "pk": "108",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "大黄",
+            "pinyin": "Dà Huáng",
+            "latin": "Radix Et Rhizoma Rhei",
+            "english": "Rhubarb Root"
+        }
+    },
+    {
+        "pk": "109",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "葱白",
+            "pinyin": "Cōng Bái",
+            "latin": "Bulbus Allii",
+            "english": "Spring Onion"
+        }
+    },
+    {
+        "pk": "110",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "郁金",
+            "pinyin": "Yù Jīn",
+            "latin": "Radix Curcumae",
+            "english": "Turmeric Root-tuber"
+        }
+    },
+    {
+        "pk": "111",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "炙甘草",
+            "pinyin": "Zhì Gān Cǎo",
+            "latin": "Radix Glycyrrhizae Preparata",
+            "english": "Prepared Licorice"
+        }
+    },
+    {
+        "pk": "112",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "浮小麦",
+            "pinyin": "Fú Xiǎo Mài",
+            "latin": "Fructus Tritici Levis",
+            "english": "Blighted Wheat"
+        }
+    },
+    {
+        "pk": "113",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "大枣",
+            "pinyin": "Dà Zǎo",
+            "latin": "Fructus Jujubae",
+            "english": "Jujube, Chinese Date"
+        }
+    },
+    {
+        "pk": "114",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "姜黄",
+            "pinyin": "Jiāng Huáng",
+            "latin": "Rhizoma Curcumae Longae",
+            "english": "Tumeric"
+        }
+    },
+    {
+        "pk": "115",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "前胡",
+            "pinyin": "Qián Hú",
+            "latin": "Radix Peucedani",
+            "english": "Hogfennel Root"
+        }
+    },
+    {
+        "pk": "116",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "浙貝母",
+            "pinyin": "Zhè Bèi Mǔ",
+            "latin": "Bulbus Fritillariae Thunbergii",
+            "english": "Thunberg Fritillary Bulb"
+        }
+    },
+    {
+        "pk": "117",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "党参",
+            "pinyin": "Dǎng Shēn",
+            "latin": "Radix Codonopsis",
+            "english": "Codonopsis Root"
+        }
+    },
+    {
+        "pk": "118",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "桑叶",
+            "pinyin": "Sāng Yè",
+            "latin": "Folium Mori",
+            "english": "Mulberry Leaf"
+        }
+    },
+    {
+        "pk": "119",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "茯神",
+            "pinyin": "Fú Shén",
+            "latin": "Scierotium Pararadicis Poriae Cocos",
+            "english": "Spirit Poria"
+        }
+    },
+    {
+        "pk": "120",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "怀牛膝",
+            "pinyin": "Huái Niú Xī",
+            "latin": "Achyranthes",
+            "english": "Twotooth Achyranthes Root"
+        }
+    },
+    {
+        "pk": "121",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "莪术",
+            "pinyin": "É Zhú",
+            "latin": "Rhizoma Curcumae Zedoariae",
+            "english": "Zedoary Rhizome"
+        }
+    },
+    {
+        "pk": "122",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "延胡索",
+            "pinyin": "Yán Hú Suǒ",
+            "latin": "Rhizoma Corydalis",
+            "english": "Corydalis Rhizome"
+        }
+    },
+    {
+        "pk": "123",
+        "model": "shennong.herb",
+        "fields": {
+            "chinese": "巴戟天",
+            "pinyin": "Ba Jǐ Tiān",
+            "latin": "Radix Morindae Officinalis",
+            "english": "Morinda Root, Medicinal Indian Mulberry Root"
+        }
+    },
+    {
+        "pk": "1001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "1002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "1003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "3"
+        }
+    },
+    {
+        "pk": "1004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "4"
+        }
+    },
+    {
+        "pk": "1005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "5"
+        }
+    },
+    {
+        "pk": "1006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "6"
+        }
+    },
+    {
+        "pk": "1007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "7"
+        }
+    },
+    {
+        "pk": "1008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "8"
+        }
+    },
+    {
+        "pk": "1009",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "1010",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "1",
+            "herb": "10"
+        }
+    },
+    {
+        "pk": "2001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "2",
+            "herb": "11"
+        }
+    },
+    {
+        "pk": "2002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "2",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "2003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "2",
+            "herb": "13"
+        }
+    },
+    {
+        "pk": "2004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "2",
+            "herb": "14"
+        }
+    },
+    {
+        "pk": "2005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "2",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "2006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "2",
+            "herb": "15"
+        }
+    },
+    {
+        "pk": "2007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "2",
+            "herb": "16"
+        }
+    },
+    {
+        "pk": "3001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "3",
+            "herb": "17"
+        }
+    },
+    {
+        "pk": "3002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "3",
+            "herb": "18"
+        }
+    },
+    {
+        "pk": "3003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "3",
+            "herb": "7"
+        }
+    },
+    {
+        "pk": "3004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "3",
+            "herb": "19"
+        }
+    },
+    {
+        "pk": "3005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "3",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "3006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "3",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "3007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "3",
+            "herb": "21"
+        }
+    },
+    {
+        "pk": "4001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "4",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "4002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "4",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "4003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "4",
+            "herb": "10"
+        }
+    },
+    {
+        "pk": "4004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "4",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "4005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "4",
+            "herb": "22"
+        }
+    },
+    {
+        "pk": "5001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "5",
+            "herb": "23"
+        }
+    },
+    {
+        "pk": "5002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "5",
+            "herb": "24"
+        }
+    },
+    {
+        "pk": "5003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "5",
+            "herb": "25"
+        }
+    },
+    {
+        "pk": "5004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "5",
+            "herb": "26"
+        }
+    },
+    {
+        "pk": "5005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "5",
+            "herb": "27"
+        }
+    },
+    {
+        "pk": "5006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "5",
+            "herb": "28"
+        }
+    },
+    {
+        "pk": "6001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "6",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "6002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "6",
+            "herb": "30"
+        }
+    },
+    {
+        "pk": "6003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "6",
+            "herb": "31"
+        }
+    },
+    {
+        "pk": "7001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "7",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "7002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "7",
+            "herb": "32"
+        }
+    },
+    {
+        "pk": "7003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "7",
+            "herb": "33"
+        }
+    },
+    {
+        "pk": "7004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "7",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "7005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "7",
+            "herb": "35"
+        }
+    },
+    {
+        "pk": "7006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "7",
+            "herb": "36"
+        }
+    },
+    {
+        "pk": "8001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "8",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "8002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "8",
+            "herb": "37"
+        }
+    },
+    {
+        "pk": "8003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "8",
+            "herb": "32"
+        }
+    },
+    {
+        "pk": "8004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "8",
+            "herb": "33"
+        }
+    },
+    {
+        "pk": "8005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "8",
+            "herb": "35"
+        }
+    },
+    {
+        "pk": "8006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "8",
+            "herb": "36"
+        }
+    },
+    {
+        "pk": "8007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "8",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "9001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "9",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "9002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "9",
+            "herb": "32"
+        }
+    },
+    {
+        "pk": "9003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "9",
+            "herb": "33"
+        }
+    },
+    {
+        "pk": "9004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "9",
+            "herb": "35"
+        }
+    },
+    {
+        "pk": "9005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "9",
+            "herb": "36"
+        }
+    },
+    {
+        "pk": "9006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "9",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "9007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "9",
+            "herb": "21"
+        }
+    },
+    {
+        "pk": "10001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "5"
+        }
+    },
+    {
+        "pk": "10002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "10003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "38"
+        }
+    },
+    {
+        "pk": "10004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "7"
+        }
+    },
+    {
+        "pk": "10005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "39"
+        }
+    },
+    {
+        "pk": "10006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "40"
+        }
+    },
+    {
+        "pk": "10007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "22"
+        }
+    },
+    {
+        "pk": "10008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "10",
+            "herb": "15"
+        }
+    },
+    {
+        "pk": "11001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "11",
+            "herb": "41"
+        }
+    },
+    {
+        "pk": "11002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "11",
+            "herb": "42"
+        }
+    },
+    {
+        "pk": "11003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "11",
+            "herb": "43"
+        }
+    },
+    {
+        "pk": "11004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "11",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "11005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "11",
+            "herb": "44"
+        }
+    },
+    {
+        "pk": "11006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "11",
+            "herb": "45"
+        }
+    },
+    {
+        "pk": "11007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "11",
+            "herb": "46"
+        }
+    },
+    {
+        "pk": "12001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "12",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "12002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "12",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "12003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "12",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "12004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "12",
+            "herb": "10"
+        }
+    },
+    {
+        "pk": "12005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "12",
+            "herb": "42"
+        }
+    },
+    {
+        "pk": "12006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "12",
+            "herb": "47"
+        }
+    },
+    {
+        "pk": "13001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "13",
+            "herb": "48"
+        }
+    },
+    {
+        "pk": "13002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "13",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "13003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "13",
+            "herb": "49"
+        }
+    },
+    {
+        "pk": "13004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "13",
+            "herb": "50"
+        }
+    },
+    {
+        "pk": "14001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "51"
+        }
+    },
+    {
+        "pk": "14002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "52"
+        }
+    },
+    {
+        "pk": "14003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "53"
+        }
+    },
+    {
+        "pk": "14004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "47"
+        }
+    },
+    {
+        "pk": "14005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "30"
+        }
+    },
+    {
+        "pk": "14006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "38"
+        }
+    },
+    {
+        "pk": "14007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "54"
+        }
+    },
+    {
+        "pk": "14008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "14",
+            "herb": "55"
+        }
+    },
+    {
+        "pk": "15001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "15",
+            "herb": "22"
+        }
+    },
+    {
+        "pk": "15002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "15",
+            "herb": "56"
+        }
+    },
+    {
+        "pk": "15003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "15",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "15004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "15",
+            "herb": "57"
+        }
+    },
+    {
+        "pk": "15005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "15",
+            "herb": "40"
+        }
+    },
+    {
+        "pk": "16001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "16002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "32"
+        }
+    },
+    {
+        "pk": "16003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "33"
+        }
+    },
+    {
+        "pk": "16004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "35"
+        }
+    },
+    {
+        "pk": "16005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "36"
+        }
+    },
+    {
+        "pk": "16006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "16007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "18"
+        }
+    },
+    {
+        "pk": "16008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "16",
+            "herb": "58"
+        }
+    },
+    {
+        "pk": "17001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "3"
+        }
+    },
+    {
+        "pk": "17002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "59"
+        }
+    },
+    {
+        "pk": "17003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "60"
+        }
+    },
+    {
+        "pk": "17004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "61"
+        }
+    },
+    {
+        "pk": "17005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "17006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "62"
+        }
+    },
+    {
+        "pk": "17007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "63"
+        }
+    },
+    {
+        "pk": "17008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "17",
+            "herb": "52"
+        }
+    },
+    {
+        "pk": "18001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "18",
+            "herb": "64"
+        }
+    },
+    {
+        "pk": "18002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "18",
+            "herb": "58"
+        }
+    },
+    {
+        "pk": "18003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "18",
+            "herb": "65"
+        }
+    },
+    {
+        "pk": "18004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "18",
+            "herb": "66"
+        }
+    },
+    {
+        "pk": "18005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "18",
+            "herb": "67"
+        }
+    },
+    {
+        "pk": "19001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "68"
+        }
+    },
+    {
+        "pk": "19002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "62"
+        }
+    },
+    {
+        "pk": "19003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "19004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "19005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "69"
+        }
+    },
+    {
+        "pk": "19006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "15"
+        }
+    },
+    {
+        "pk": "19007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "70"
+        }
+    },
+    {
+        "pk": "19008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "19",
+            "herb": "71"
+        }
+    },
+    {
+        "pk": "20001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "20",
+            "herb": "72"
+        }
+    },
+    {
+        "pk": "20002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "20",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "20003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "20",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "20004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "20",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "20005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "20",
+            "herb": "21"
+        }
+    },
+    {
+        "pk": "21001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "21",
+            "herb": "31"
+        }
+    },
+    {
+        "pk": "21002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "21",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "21003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "21",
+            "herb": "30"
+        }
+    },
+    {
+        "pk": "21004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "21",
+            "herb": "61"
+        }
+    },
+    {
+        "pk": "22001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "22002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "22003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "22004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "22005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "73"
+        }
+    },
+    {
+        "pk": "22006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "74"
+        }
+    },
+    {
+        "pk": "22007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "22"
+        }
+    },
+    {
+        "pk": "22008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "22",
+            "herb": "75"
+        }
+    },
+    {
+        "pk": "23001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "74"
+        }
+    },
+    {
+        "pk": "23002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "76"
+        }
+    },
+    {
+        "pk": "23003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "37"
+        }
+    },
+    {
+        "pk": "23004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "23005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "77"
+        }
+    },
+    {
+        "pk": "23006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "10"
+        }
+    },
+    {
+        "pk": "23007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "78"
+        }
+    },
+    {
+        "pk": "23008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "23",
+            "herb": "79"
+        }
+    },
+    {
+        "pk": "24001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "24",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "24002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "24",
+            "herb": "80"
+        }
+    },
+    {
+        "pk": "24003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "24",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "25001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "81"
+        }
+    },
+    {
+        "pk": "25002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "25003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "25004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "10"
+        }
+    },
+    {
+        "pk": "25005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "25006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "82"
+        }
+    },
+    {
+        "pk": "25007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "83"
+        }
+    },
+    {
+        "pk": "25008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "84"
+        }
+    },
+    {
+        "pk": "25009",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "25",
+            "herb": "19"
+        }
+    },
+    {
+        "pk": "26001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "26",
+            "herb": "85"
+        }
+    },
+    {
+        "pk": "26002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "26",
+            "herb": "78"
+        }
+    },
+    {
+        "pk": "26003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "26",
+            "herb": "67"
+        }
+    },
+    {
+        "pk": "26004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "26",
+            "herb": "86"
+        }
+    },
+    {
+        "pk": "26005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "26",
+            "herb": "87"
+        }
+    },
+    {
+        "pk": "27001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "88"
+        }
+    },
+    {
+        "pk": "27002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "89"
+        }
+    },
+    {
+        "pk": "27003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "14"
+        }
+    },
+    {
+        "pk": "27004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "21"
+        }
+    },
+    {
+        "pk": "27005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "27006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "65"
+        }
+    },
+    {
+        "pk": "27007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "11"
+        }
+    },
+    {
+        "pk": "27008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "27",
+            "herb": "67"
+        }
+    },
+    {
+        "pk": "28001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "90"
+        }
+    },
+    {
+        "pk": "28002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "91"
+        }
+    },
+    {
+        "pk": "28003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "92"
+        }
+    },
+    {
+        "pk": "28004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "28005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "93"
+        }
+    },
+    {
+        "pk": "28006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "74"
+        }
+    },
+    {
+        "pk": "28007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "94"
+        }
+    },
+    {
+        "pk": "28008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "28",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "29001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "29",
+            "herb": "7"
+        }
+    },
+    {
+        "pk": "30001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "30",
+            "herb": "89"
+        }
+    },
+    {
+        "pk": "30002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "30",
+            "herb": "95"
+        }
+    },
+    {
+        "pk": "30003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "30",
+            "herb": "40"
+        }
+    },
+    {
+        "pk": "30004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "30",
+            "herb": "11"
+        }
+    },
+    {
+        "pk": "31001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "31",
+            "herb": "64"
+        }
+    },
+    {
+        "pk": "31002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "31",
+            "herb": "65"
+        }
+    },
+    {
+        "pk": "31003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "31",
+            "herb": "66"
+        }
+    },
+    {
+        "pk": "31004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "31",
+            "herb": "67"
+        }
+    },
+    {
+        "pk": "32001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "57"
+        }
+    },
+    {
+        "pk": "32002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "32003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "61"
+        }
+    },
+    {
+        "pk": "32004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "35"
+        }
+    },
+    {
+        "pk": "32005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "32006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "32007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "47"
+        }
+    },
+    {
+        "pk": "32008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "32",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "33001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "33",
+            "herb": "68"
+        }
+    },
+    {
+        "pk": "33002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "33",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "33003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "33",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "33004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "33",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "33005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "33",
+            "herb": "15"
+        }
+    },
+    {
+        "pk": "34001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "34002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "34003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "96"
+        }
+    },
+    {
+        "pk": "34004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "97"
+        }
+    },
+    {
+        "pk": "34005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "98"
+        }
+    },
+    {
+        "pk": "34006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "99"
+        }
+    },
+    {
+        "pk": "34007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "100"
+        }
+    },
+    {
+        "pk": "34008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "101"
+        }
+    },
+    {
+        "pk": "34009",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "63"
+        }
+    },
+    {
+        "pk": "34010",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "39"
+        }
+    },
+    {
+        "pk": "34011",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "34012",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "34",
+            "herb": "55"
+        }
+    },
+    {
+        "pk": "35001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "35",
+            "herb": "102"
+        }
+    },
+    {
+        "pk": "35002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "35",
+            "herb": "103"
+        }
+    },
+    {
+        "pk": "35003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "35",
+            "herb": "104"
+        }
+    },
+    {
+        "pk": "36001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "48"
+        }
+    },
+    {
+        "pk": "36002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "105"
+        }
+    },
+    {
+        "pk": "36003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "7"
+        }
+    },
+    {
+        "pk": "36004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "36005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "106"
+        }
+    },
+    {
+        "pk": "36006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "107"
+        }
+    },
+    {
+        "pk": "36007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "36008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "22"
+        }
+    },
+    {
+        "pk": "36009",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "36010",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "77"
+        }
+    },
+    {
+        "pk": "36011",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "36",
+            "herb": "66"
+        }
+    },
+    {
+        "pk": "37001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "37",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "37002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "37",
+            "herb": "31"
+        }
+    },
+    {
+        "pk": "37003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "37",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "37004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "37",
+            "herb": "10"
+        }
+    },
+    {
+        "pk": "38001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "108"
+        }
+    },
+    {
+        "pk": "38002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "38003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "15"
+        }
+    },
+    {
+        "pk": "38004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "91"
+        }
+    },
+    {
+        "pk": "38005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "56"
+        }
+    },
+    {
+        "pk": "38006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "82"
+        }
+    },
+    {
+        "pk": "38007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "61"
+        }
+    },
+    {
+        "pk": "38008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "67"
+        }
+    },
+    {
+        "pk": "38009",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "14"
+        }
+    },
+    {
+        "pk": "38010",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "16"
+        }
+    },
+    {
+        "pk": "38011",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "42"
+        }
+    },
+    {
+        "pk": "38012",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "38013",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "38014",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "10"
+        }
+    },
+    {
+        "pk": "38015",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "109"
+        }
+    },
+    {
+        "pk": "38016",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "38",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "39001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "80"
+        }
+    },
+    {
+        "pk": "39002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "33"
+        }
+    },
+    {
+        "pk": "39003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "110"
+        }
+    },
+    {
+        "pk": "39004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "38"
+        }
+    },
+    {
+        "pk": "39005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "106"
+        }
+    },
+    {
+        "pk": "39006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "5"
+        }
+    },
+    {
+        "pk": "39007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "83"
+        }
+    },
+    {
+        "pk": "39008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "39",
+            "herb": "111"
+        }
+    },
+    {
+        "pk": "40001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "40",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "40002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "40",
+            "herb": "112"
+        }
+    },
+    {
+        "pk": "40003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "40",
+            "herb": "113"
+        }
+    },
+    {
+        "pk": "41001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "41",
+            "herb": "108"
+        }
+    },
+    {
+        "pk": "41002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "41",
+            "herb": "30"
+        }
+    },
+    {
+        "pk": "41003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "41",
+            "herb": "12"
+        }
+    },
+    {
+        "pk": "41004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "41",
+            "herb": "114"
+        }
+    },
+    {
+        "pk": "42001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "42",
+            "herb": "80"
+        }
+    },
+    {
+        "pk": "42002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "42",
+            "herb": "95"
+        }
+    },
+    {
+        "pk": "43001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "43",
+            "herb": "8"
+        }
+    },
+    {
+        "pk": "43002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "43",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "43003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "43",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "43004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "43",
+            "herb": "33"
+        }
+    },
+    {
+        "pk": "43005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "43",
+            "herb": "21"
+        }
+    },
+    {
+        "pk": "43006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "43",
+            "herb": "108"
+        }
+    },
+    {
+        "pk": "44001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "2"
+        }
+    },
+    {
+        "pk": "44002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "32"
+        }
+    },
+    {
+        "pk": "44003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "33"
+        }
+    },
+    {
+        "pk": "44004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "34"
+        }
+    },
+    {
+        "pk": "44005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "35"
+        }
+    },
+    {
+        "pk": "44006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "36"
+        }
+    },
+    {
+        "pk": "44007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "21"
+        }
+    },
+    {
+        "pk": "44008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "44",
+            "herb": "30"
+        }
+    },
+    {
+        "pk": "45001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "45",
+            "herb": "31"
+        }
+    },
+    {
+        "pk": "45002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "45",
+            "herb": "50"
+        }
+    },
+    {
+        "pk": "46001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "115"
+        }
+    },
+    {
+        "pk": "46002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "116"
+        }
+    },
+    {
+        "pk": "46003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "93"
+        }
+    },
+    {
+        "pk": "46004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "43"
+        }
+    },
+    {
+        "pk": "46005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "82"
+        }
+    },
+    {
+        "pk": "46006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "94"
+        }
+    },
+    {
+        "pk": "46007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "37"
+        }
+    },
+    {
+        "pk": "46008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "46",
+            "herb": "117"
+        }
+    },
+    {
+        "pk": "47001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "29"
+        }
+    },
+    {
+        "pk": "47002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "1"
+        }
+    },
+    {
+        "pk": "47003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "81"
+        }
+    },
+    {
+        "pk": "47004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "112"
+        }
+    },
+    {
+        "pk": "47005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "118"
+        }
+    },
+    {
+        "pk": "47006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "119"
+        }
+    },
+    {
+        "pk": "47007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "58"
+        }
+    },
+    {
+        "pk": "47008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "47",
+            "herb": "62"
+        }
+    },
+    {
+        "pk": "48001",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "20"
+        }
+    },
+    {
+        "pk": "48002",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "9"
+        }
+    },
+    {
+        "pk": "48003",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "45"
+        }
+    },
+    {
+        "pk": "48004",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "121"
+        }
+    },
+    {
+        "pk": "48005",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "49"
+        }
+    },
+    {
+        "pk": "48006",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "122"
+        }
+    },
+    {
+        "pk": "48007",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "37"
+        }
+    },
+    {
+        "pk": "48008",
+        "model": "shennong.ingredient",
+        "fields": {
+            "recipe": "48",
+            "herb": "123"
+        }
+    }
+]

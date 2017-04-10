@@ -44,4 +44,4 @@ class Ingredient(models.Model):
     herb = models.ForeignKey(Herb)
     
     def __str__(self):
-        return self.recipe + ' contains ' + self.herb
+        return '{0} contains {1}'.format(self.recipe, self.herb)
