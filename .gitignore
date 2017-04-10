@@ -1,0 +1,14 @@
+*.pyc
+__pycache__
+db.*
+.DS_Store
+
+# setup.py files
+build/**/*.*
+dist/*.*
+django_diary.egg-info/
+django_diary.egg-info/*.*
+MANIFEST
+
+# local files
+ISSUES.txt
