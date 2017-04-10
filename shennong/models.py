@@ -40,8 +40,9 @@ class Ingredient(models.Model):
     TODO: may include details of proportions/amounts of a herb in a recipe.
     """
     
-    recipe = models.ForeignKey(Recipe)
-    herb = models.ForeignKey(Herb)
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
+    herb = models.ForeignKey(Herb, on_delete=models.CASCADE)
     
     def __str__(self):
         return '{0} contains {1}'.format(self.recipe, self.herb)
+
