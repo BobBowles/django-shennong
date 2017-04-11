@@ -1,0 +1,13 @@
+<h1>
+    {{ recipe.chinese }}, {{ recipe.pinyin }}
+</h1>
+<ul>
+    {% for herb in recipe.ingredients.all %}
+        <li>
+            <a href="{% url 'herb' herb.id %}">
+                {{ herb.chinese }}, {{ herb.pinyin }}, 
+                    {{ herb.latin }}, {{ herb.english }} 
+            </a>
+        </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,13 @@
+{% if recipe_index %}
+    <ul>
+        {% for recipe in recipe_index %}
+            <li>
+                <a href="{% url 'recipe_header' recipe.id %}/">
+                    {{ recipe.pinyin }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No recipes available.</p>
+{% endif %}
