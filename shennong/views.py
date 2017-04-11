@@ -1,8 +1,6 @@
 from django.shortcuts import get_object_or_404, render
 
 # Create your views here.
-from django.http import HttpResponse
-from django.template import loader
 from .models import Recipe, Herb
 
 
@@ -11,11 +9,9 @@ def index(request):
     Display a list of recipes to select from.
     """
     recipe_index = Recipe.objects.order_by('pinyin')
-#    template = loader.get_template('shennong/index.html')
     context = {
         'recipe_index': recipe_index,
     }
-#    return HttpResponse(template.render(context, request))
     return render(request, 'shennong/index.html', context)
 
 
