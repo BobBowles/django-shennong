@@ -4,12 +4,6 @@ from django.contrib import admin
 from .models import Herb, Recipe, Ingredient
 
 
-# set the admin site header text
-admin.site.site_header = '神农　Shen Nong Recipes And Herbs'
-admin.site.site_title = '神农　Shen Nong'
-admin.site.index_title = '神农　Shen Nong Site Administration'
-
-
 class HerbAdmin(admin.ModelAdmin):
     """
     Tailor the list display of herbs on the admin form.
