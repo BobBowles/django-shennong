@@ -3,15 +3,18 @@
 {% block body %}
 
 <h1>
-    Recipe Index
+    Shen Nong 神农
 </h1>
+<h2>
+    Recipe Index
+</h2>
 
 {% if recipe_index %}
     <ul>
         {% for recipe in recipe_index %}
             <li>
-                <a href="{% url 'recipe_header' recipe.id %}/">
-                    {{ recipe.pinyin }}
+                <a href="{% url 'recipe_header' recipe.id %}">
+                    {{ recipe.chinese }} {{ recipe.pinyin }}
                 </a>
             </li>
         {% endfor %}

@@ -6,15 +6,32 @@
     </title>
     
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <style type="text/css">
-        @font-face { font-family: Lato; 
-            src: url("{% static 'fonts/Lato2OFL/Lato-Regular.ttf' %}");
-        }
 
-        body {
-            font-family: "Lato";
-        }
+<!-- nice font for latin and chinese -->
+    <style type="text/css">
+@font-face { font-family: Lato; 
+    src: url("{% static 'fonts/Lato2OFL/Lato-Regular.ttf' %}");
+}
+
+body {
+    font-family: "Lato";
+}
     </style>
+
+<!-- make links invisible except when hovered -->
+    <style>
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+    </style>
+
+    {% block head_extra %}
+    {% endblock head_extra %}
 
 </head>
 <body>
