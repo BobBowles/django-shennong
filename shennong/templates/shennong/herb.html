@@ -1,3 +1,7 @@
+{% extends "shennong/base.html" %}
+
+{% block body %}
+
 <h1>
     {{ herb.chinese }}, {{ herb.pinyin }}
 </h1>
@@ -5,3 +9,4 @@
     {{ herb.latin }}, {{ herb.english }}
 </p>
 
+{% endblock body %}

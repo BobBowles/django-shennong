@@ -1,3 +1,11 @@
+{% extends "shennong/base.html" %}
+
+{% block body %}
+
+<h1>
+    Recipe Index
+</h1>
+
 {% if recipe_index %}
     <ul>
         {% for recipe in recipe_index %}
@@ -11,3 +19,5 @@
 {% else %}
     <p>No recipes available.</p>
 {% endif %}
+
+{% endblock body %}

@@ -1,3 +1,7 @@
+{% extends "shennong/base.html" %}
+
+{% block body %}
+
 <h1>
     <a href="{% url 'recipe_full' recipe.id %}">
         {{ recipe.chinese }}, {{ recipe.pinyin }}
@@ -7,3 +11,4 @@
     {{ recipe.english }}
 </p>
 
+{% endblock body %}
