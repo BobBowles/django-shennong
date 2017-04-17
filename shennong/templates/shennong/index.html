@@ -10,15 +10,41 @@
 </h2>
 
 {% if recipe_index %}
-    <ul>
+    <table>
+        <tr>
+            <th>
+                中文
+            </th>
+            <th>
+                Pinyin
+            </th>
+            <th>
+                English
+            </th>
+        </tr>
+
         {% for recipe in recipe_index %}
-            <li>
-                <a href="{% url 'recipe_header' recipe.id %}">
-                    {{ recipe.chinese }} {{ recipe.pinyin }}
-                </a>
-            </li>
+            <tr>
+                <td>
+                    <a href="{% url 'recipe_header' recipe.id %}">
+                        {{ recipe.chinese }}
+                    </a>
+                </td>
+                <td>
+                    <a href="{% url 'recipe_header' recipe.id %}">
+                        {{ recipe.pinyin }}
+                    </a>
+                </td>
+                <td>
+                    <a href="{% url 'recipe_header' recipe.id %}">
+                        {{ recipe.english }}
+                    </a>
+                </td>
+            </tr>
         {% endfor %}
-    </ul>
+
+    </table>
+
 {% else %}
     <p>No recipes available.</p>
 {% endif %}
