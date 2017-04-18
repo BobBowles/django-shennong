@@ -1,5 +1,25 @@
 {% extends "shennong/base.html" %}
 
+{% block head_extra %}
+
+<!-- Table style -->
+<style>
+table {
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+.chinese {
+    width: 15%;
+}
+.pinyin {
+    width: 30%;
+}
+</style>
+
+{% endblock head_extra %}
+
 {% block body %}
 
 <h1>
@@ -23,10 +43,10 @@
 {% if recipe_index %}
     <table>
         <tr>
-            <th>
+            <th class="chinese">
                 中文
             </th>
-            <th>
+            <th class="pinyin">
                 Pinyin
             </th>
             <th>
