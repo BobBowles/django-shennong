@@ -1,0 +1,20 @@
+{% extends "shennong/base.html" %}
+
+{% block body %}
+
+<h1>
+    欢迎来到神农本草 Welcome to Shen Nong Herb Database
+</h1>
+
+<h2>
+    <a href="{% url 'admin:index' %}">
+        Add, Delete, and Edit Herbs and Recipes
+    </a>
+</h2>
+<h2>
+    <a href="{% url 'index' %}">
+        View Recipes And Herbs
+    </a>
+</h2>
+
+{% endblock body %}

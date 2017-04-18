@@ -14,15 +14,18 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.views.generic import TemplateView
 
 
 # set the admin site header text
-admin.site.site_header = '神农　Shen Nong Recipes And Herbs'
-admin.site.site_title = '神农　Shen Nong'
-admin.site.index_title = '神农　Shen Nong Site Administration'
+admin.site.site_header = '神农本草　Shen Nong Recipes And Herbs'
+admin.site.site_title = '神农本草　Shen Nong'
+admin.site.index_title = '神农本草　Shen Nong Site Administration'
 
 
 urlpatterns = [
+    url(r'^$', TemplateView.as_view(template_name="shennong/home.html"),
+        name='home'),
     url(r'^shennong/', include('shennong.urls')),
     url(r'^admin/', include(admin.site.urls)),
 ]
