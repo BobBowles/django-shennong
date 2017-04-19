@@ -5,9 +5,16 @@
 <style>
 .column {
     float: left;
+    /*margin: 0px 10px;*/
 }
 .column h1, .column h2 {
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .label {
     width: 50%;
@@ -69,8 +76,8 @@
         {% for herb in recipe.ingredients.all %}
             <li>
                 <a href="{% url 'herb' herb.id %}">
-                    {{ herb.chinese }}, {{ herb.pinyin }}, 
-                        {{ herb.latin }}, {{ herb.english }} 
+                    {{ herb.chinese }}, {{ herb.pinyin }},
+                        {{ herb.latin }}, {{ herb.english }}
                 </a>
             </li>
         {% endfor %}
