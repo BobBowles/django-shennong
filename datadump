@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# dump data from shennong app in a human-readable form.
+# Requires installation of uni2ascii package.
+
+# usage: datadump outfilename
+
+python ./manage.py dumpdata --indent 4 shennong | ascii2uni -a L > $1
