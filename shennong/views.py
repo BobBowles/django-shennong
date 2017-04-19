@@ -57,8 +57,27 @@ def index(request):
         ):
         recipe_search_terms = request.GET['query']
         recipe_query = get_query(
-            recipe_search_terms, ['chinese', 'pinyin', 'english',])
-        recipe_index = Recipe.objects.filter(recipe_query).order_by('pinyin')
+            recipe_search_terms,
+            ['chinese', 'pinyin', 'english',])
+        recipe_index = list(Recipe.objects.filter(recipe_query))
+
+        # now see if any herbs contain any of the search terms
+        herb_query = get_query(
+            recipe_search_terms,
+            ['chinese', 'pinyin', 'latin', 'english',])
+        herb_index = Herb.objects.filter(herb_query)
+        herb_related_recipes = []
+        for herb in herb_index:
+            herb_related_recipes.extend(herb.recipes.all())
+
+        # merge unique elements of the two lists together
+        for recipe in herb_related_recipes:
+            if (recipe not in recipe_index):
+                recipe_index.append(recipe)
+
+        # sort the resulting  index
+        recipe_index.sort(key=lambda x: x.pinyin, reverse=False)
+
     else:
         recipe_index = Recipe.objects.order_by('pinyin')
 
