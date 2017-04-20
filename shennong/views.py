@@ -108,10 +108,10 @@ def recipe_full(request, id):
     return render(request, 'shennong/recipe_full.html', {'recipe': recipe,})
 
 
-def herb(request, id):
+def herb_header(request, id):
     """
     Display data for an herb.
     """
     herb = get_object_or_404(Herb, pk=id)
 
-    return render(request, 'shennong/herb.html', {'herb': herb,})
+    return render(request, 'shennong/herb_header.html', {'herb': herb,})
