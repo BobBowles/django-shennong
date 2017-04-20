@@ -3,7 +3,9 @@
 {% block body %}
 
 <h1>
-    {{ herb.chinese }}, {{ herb.pinyin }}
+    <a href="{% url 'herb_full' herb.id %}">
+        {{ herb.chinese }}, {{ herb.pinyin }}
+    </a>
 </h1>
 <p>
     {{ herb.latin }}, {{ herb.english }}

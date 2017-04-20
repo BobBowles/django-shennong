@@ -1,0 +1,95 @@
+{% extends "shennong/base.html" %}
+
+{% block head_extra %}
+
+<style>
+.column {
+    float: left;
+    /*margin: 0px 10px;*/
+}
+.column h1, .column h2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.label {
+    width: 50%;
+}
+.chinesename {
+    font-size: 400%; /* Font size 400% OK normally, 300% for long names */
+}
+.longchinesename {
+    font-size: 300%; /* Font size 400% OK normally, 300% for long names */
+}
+.list {
+    width: 50%;
+    font-size: small; /* Font size small for normal, x-small for big lists */
+}
+.biglist {
+    width: 50%;
+    font-size: x-small; /* Font size small for normal, x-small for big lists */
+}
+</style>
+
+{% endblock head_extra %}
+
+{% block body %}
+
+<div class="column label">
+    <h1 class=
+        {% if herb.chinese|length > 5 %}
+            "longchinesename">
+        {% else %}
+            "chinesename">
+        {% endif %}
+        <p>
+            {{ herb.chinese }}
+        </p>
+        <p>
+            {{ herb.pinyin }}
+        </p>
+    </h1>
+    <h2>
+        <p>
+            {{ herb.latin }}
+        </p>
+        <p>
+            {{ herb.english }}
+        </p>
+    </h2>
+</div>
+
+<div class=
+    {% if herb.recipes.all|length > 9 %}
+        "column biglist">
+    {% else %}
+        "column list">
+    {% endif %}
+    <h1>
+        <p>
+            {{ herb.chinese }}
+        </p>
+        <p>
+            {{ herb.pinyin }}
+        </p>
+    </h1>
+    <h2>
+        Associated Recipes
+    </h2>
+    <ul>
+        {% for recipe in herb.recipes.all %}
+            <li>
+                <a href="{% url 'recipe_header' recipe.id %}">
+                    {{ recipe.chinese }}, {{ recipe.pinyin }},
+                        {{ recipe.english }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock body %}

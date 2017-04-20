@@ -1,0 +1,94 @@
+{% extends "shennong/base.html" %}
+
+{% block head_extra %}
+
+<!-- Table style -->
+<style>
+table {
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+.chinese {
+    width: 15%;
+}
+.pinyin {
+    width: 25%;
+}
+.latin {
+    width: 30%;
+}
+</style>
+
+{% endblock head_extra %}
+
+{% block body %}
+
+<h1>
+    神农本草经 Shen Nong Herb Database
+</h1>
+<h2>
+    Herb Index
+</h2>
+
+<!-- Entry form for search terms -->
+<form method="get" action="{% url "herb_index" %}">
+    <label for="query">Search:</label>
+        <input type="text" name="query" id="query"
+            size="100"
+            value="{{ herb_search_terms }}"/>
+        <input type="submit" value="Submit"/>
+</form>
+<br/>
+
+<!-- Display search results -->
+{% if herb_index %}
+    <table>
+        <tr>
+            <th class="chinese">
+                中文
+            </th>
+            <th class="pinyin">
+                Pinyin
+            </th>
+            <th class="latin">
+                Latin
+            </th>
+            <th>
+                English
+            </th>
+        </tr>
+
+        {% for herb in herb_index %}
+            <tr>
+                <td>
+                    <a href="{% url 'herb_header' herb.id %}">
+                        {{ herb.chinese }}
+                    </a>
+                </td>
+                <td>
+                    <a href="{% url 'herb_header' herb.id %}">
+                        {{ herb.pinyin }}
+                    </a>
+                </td>
+                <td>
+                    <a href="{% url 'herb_header' herb.id %}">
+                        {{ herb.latin }}
+                    </a>
+                </td>
+                <td>
+                    <a href="{% url 'herb_header' herb.id %}">
+                        {{ herb.english }}
+                    </a>
+                </td>
+            </tr>
+        {% endfor %}
+
+    </table>
+
+{% else %}
+    <p>No herbs available.</p>
+{% endif %}
+
+{% endblock body %}

@@ -97,8 +97,6 @@ def recipe_header(request, id):
     return render(request, 'shennong/recipe_header.html', {'recipe': recipe,})
 
 
-
-
 def recipe_full(request, id):
     """
     Display full data for a recipe.
@@ -108,6 +106,51 @@ def recipe_full(request, id):
     return render(request, 'shennong/recipe_full.html', {'recipe': recipe,})
 
 
+def herb_index(request):
+    """
+    Display a list of herbs for selection.
+    The list can be narrowed down using a search bar.
+    """
+    herb_index = None
+    herb_search_terms = ""
+
+    if ((request.method == "GET") and
+        ('query' in request.GET) and
+        request.GET['query'].strip()
+        ):
+        herb_search_terms = request.GET['query']
+        herb_query = get_query(
+            herb_search_terms,
+            ['chinese', 'pinyin', 'latin', 'english',])
+        herb_index = list(Herb.objects.filter(herb_query))
+
+        # now see if any recipes contain any of the search terms
+        recipe_query = get_query(
+            herb_search_terms,
+            ['chinese', 'pinyin', 'english',])
+        recipe_index = Recipe.objects.filter(recipe_query)
+        recipe_related_herbs = []
+        for recipe in recipe_index:
+            recipe_related_herbs.extend(recipe.ingredients.all())
+
+        # merge unique elements of the two lists together
+        for herb in recipe_related_herbs:
+            if (herb not in herb_index):
+                herb_index.append(herb)
+
+        # sort the resulting  index
+        herb_index.sort(key=lambda x: x.pinyin, reverse=False)
+
+    else:
+        herb_index = Herb.objects.order_by('pinyin')
+
+    context = {
+        'herb_index': herb_index,
+        'herb_search_terms': herb_search_terms,
+    }
+    return render(request, 'shennong/herb_index.html', context)
+
+
 def herb_header(request, id):
     """
     Display data for an herb.
@@ -115,3 +158,12 @@ def herb_header(request, id):
     herb = get_object_or_404(Herb, pk=id)
 
     return render(request, 'shennong/herb_header.html', {'herb': herb,})
+
+
+def herb_full(request, id):
+    """
+    Display full data for an herb.
+    """
+    herb = get_object_or_404(Herb, pk=id)
+
+    return render(request, 'shennong/herb_full.html', {'herb': herb,})
