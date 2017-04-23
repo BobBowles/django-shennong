@@ -15,6 +15,9 @@ class Herb(models.Model):
     latin = models.CharField(max_length=200)
     english = models.CharField(max_length=200)
 
+    class Meta:
+        ordering = ['pinyin',]
+
     def __str__(self):
         return self.pinyin
 
@@ -33,6 +36,9 @@ class Recipe(models.Model):
         through='Ingredient',
         related_name="recipes"
         )
+
+    class Meta:
+        ordering = ['pinyin',]
 
     def __str__(self):
         return self.pinyin

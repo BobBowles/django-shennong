@@ -75,11 +75,8 @@ def index(request):
             if (recipe not in recipe_index):
                 recipe_index.append(recipe)
 
-        # sort the resulting  index
-        recipe_index.sort(key=lambda x: x.pinyin, reverse=False)
-
     else:
-        recipe_index = Recipe.objects.order_by('pinyin')
+        recipe_index = Recipe.objects.all()
 
     context = {
         'recipe_index': recipe_index,
@@ -138,11 +135,8 @@ def herb_index(request):
             if (herb not in herb_index):
                 herb_index.append(herb)
 
-        # sort the resulting  index
-        herb_index.sort(key=lambda x: x.pinyin, reverse=False)
-
     else:
-        herb_index = Herb.objects.order_by('pinyin')
+        herb_index = Herb.objects.all()
 
     context = {
         'herb_index': herb_index,
