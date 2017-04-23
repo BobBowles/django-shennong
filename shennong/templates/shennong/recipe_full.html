@@ -73,11 +73,11 @@ ul {
         Ingredients
     </h2>
     <ul>
-        {% for herb in recipe.ingredients.all %}
+        {% for ingredient in ingredient_list %}
             <li>
-                <a href="{% url 'herb_header' herb.id %}">
-                    {{ herb.chinese }}, {{ herb.pinyin }},
-                        {{ herb.latin }}, {{ herb.english }}
+                <a href="{% url 'herb_header' ingredient.herb.id %}">
+                    {{ ingredient.herb.chinese }}, {{ ingredient.herb.pinyin }},
+                        {{ ingredient.herb.latin }}, {{ ingredient.herb.english }}
                 </a>
             </li>
         {% endfor %}

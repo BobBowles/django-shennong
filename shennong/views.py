@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404, render
 
 # Create your views here.
-from .models import Recipe, Herb
+from .models import Recipe, Herb, Ingredient
 
 # Used for search query.
 import re
@@ -100,7 +100,17 @@ def recipe_full(request, id):
     """
     recipe = get_object_or_404(Recipe, pk=id)
 
-    return render(request, 'shennong/recipe_full.html', {'recipe': recipe,})
+    # order the ingredients by ingredient pk,
+    # this is the order of priority of the herbs.
+    ingredient_list = Ingredient.objects.filter(recipe__id=id).order_by('id')
+
+    return render(request,
+        'shennong/recipe_full.html',
+        {
+            'recipe': recipe,
+            'ingredient_list': ingredient_list,
+        }
+    )
 
 
 def herb_index(request):
