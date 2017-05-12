@@ -33,14 +33,16 @@ th {
 </h2>
 
 <!-- Entry form for search terms -->
-<form method="get" action="{% url "herb_index" %}">
-    <label for="query">Search:</label>
-        <input type="text" name="query" id="query"
-            size="100"
-            value="{{ herb_search_terms }}"/>
-        <input type="submit" value="Submit"/>
-</form>
-<br/>
+<div class="no-print">
+    <form method="get" action="{% url "herb_index" %}">
+        <label for="query">Search:</label>
+            <input type="text" name="query" id="query"
+                size="100"
+                value="{{ herb_search_terms }}"/>
+            <input type="submit" value="Submit"/>
+    </form>
+    <br/>
+</div>
 
 <!-- Display search results -->
 {% if herb_index %}

@@ -30,14 +30,16 @@ th {
 </h2>
 
 <!-- Entry form for search terms -->
-<form method="get" action="{% url "index" %}">
-    <label for="query">Search:</label>
-        <input type="text" name="query" id="query"
-            size="100"
-            value="{{ recipe_search_terms }}"/>
-        <input type="submit" value="Submit"/>
-</form>
-<br/>
+<div class="no-print">
+    <form method="get" action="{% url "index" %}">
+        <label for="query">Search:</label>
+            <input type="text" name="query" id="query"
+                size="100"
+                value="{{ recipe_search_terms }}"/>
+            <input type="submit" value="Submit"/>
+    </form>
+    <br/>
+</div>
 
 <!-- Display search results -->
 {% if recipe_index %}
