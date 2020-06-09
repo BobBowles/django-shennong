@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             name='Ingredient',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
-                ('herb', models.ForeignKey(to='shennong.Herb')),
+                ('herb', models.ForeignKey(to='shennong.Herb', on_delete=models.CASCADE)),
             ],
         ),
         migrations.CreateModel(
@@ -40,6 +40,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ingredient',
             name='recipe',
-            field=models.ForeignKey(to='shennong.Recipe'),
+            field=models.ForeignKey(to='shennong.Recipe', on_delete=models.CASCADE),
         ),
     ]

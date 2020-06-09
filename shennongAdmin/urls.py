@@ -27,5 +27,5 @@ urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name="shennong/home.html"),
         name='home'),
     url(r'^shennong/', include('shennong.urls')),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', admin.site.urls),
 ]
