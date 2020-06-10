@@ -22,10 +22,11 @@ designed as a standalone program that uses a web browser as ui.
 Requirements
 ------------
 
-The initial version was developed with Django 1.8.16. I expect it will run with
-later versions, but this had not been tested. There are likely to be
-compatibility issues with Django < 1.7.
+The original version was developed with Django 1.8.16. The app has since been
+upgraded to run under Django 3.0.7, and should run comfortably under all
+versions of Django from 2.0 to 3.x. It is no longer compatible with Django <
+2.0. The recommended Django is now 3.0.
 
-Development was done on Python 3.4. No attempt has been made to ensure
-compatibility with other Pythons, but I have no reason to expect major issues
-except with Python 2.
+Development was initially done on Python 3.4. Since Python 3.4 went into EOL
+the app has been shown to run happily on more modern Pythons up to 3.8 with no
+modification. The recommended Python is now 3.8.
