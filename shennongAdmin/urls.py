@@ -12,7 +12,7 @@ Class-based views
 Including another URLconf
     1. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import include, url
+from django.urls import include, path
 from django.contrib import admin
 from django.views.generic import TemplateView
 
@@ -24,8 +24,8 @@ admin.site.index_title = '神农本草　Shen Nong Site Administration'
 
 
 urlpatterns = [
-    url(r'^$', TemplateView.as_view(template_name="shennong/home.html"),
+    path('', TemplateView.as_view(template_name="shennong/home.html"),
         name='home'),
-    url(r'^shennong/', include('shennong.urls')),
-    url(r'^admin/', admin.site.urls),
+    path('shennong/', include('shennong.urls')),
+    path('admin/', admin.site.urls),
 ]
