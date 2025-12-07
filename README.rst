@@ -19,11 +19,17 @@ in use today originate from ancient texts attributed to Shen Nong.
 While it may be possible to incorporate this app into other projects, it is
 designed as a standalone program that uses a web browser as ui.
 
+The app provides 1- and 2- column format display of recipe ingredients to
+facilitate printing labels onto different types of A4 sticky paper labels.
+1-column works well with UK Post Office standard A4 address labels. 2-column
+works well with 4 labels per sheet stock A4 such as Label Planet LP4/99
+(Avery L7169).
+
 Requirements
 ------------
 
 The original version was developed with Django 1.8.16. The app has since been
-upgraded to run under Django 4.2.x, where x is the latest security update. It 
+upgraded to run under Django 4.2.x, where x is the latest security update. It
 should run comfortably under all versions of Django from 2.0 to 4.2.x It is no
 longer compatible with Django < 2.0. The recommended Django is now 4.2.x < 5.
 

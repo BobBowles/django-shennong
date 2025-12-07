@@ -94,18 +94,42 @@ def recipe_header(request, id):
     return render(request, 'shennong/recipe_header.html', {'recipe': recipe,})
 
 
-def recipe_full(request, id):
+def get_recipe_and_ingredients(id):
     """
-    Display full data for a recipe.
+    Obtain a recipe and its ingrediants using the recipe id.
     """
     recipe = get_object_or_404(Recipe, pk=id)
 
     # order the ingredients by ingredient pk,
     # this is the order of priority of the herbs.
-    ingredient_list = Ingredient.objects.filter(recipe__id=id).order_by('id')
+    ingredient_list = Ingredient.objects.filter(
+        recipe__id=id).order_by('id')
+    return recipe, ingredient_list
+
+
+def recipe_full_1col(request, id):
+    """
+    Display full data for a recipe.
+    """
+    recipe, ingredient_list = get_recipe_and_ingredients(id)
 
     return render(request,
-        'shennong/recipe_full.html',
+        'shennong/recipe_full_1col.html',
+        {
+            'recipe': recipe,
+            'ingredient_list': ingredient_list,
+        }
+    )
+
+
+def recipe_full_2col(request, id):
+    """
+    Display full data for a recipe.
+    """
+    recipe, ingredient_list = get_recipe_and_ingredients(id)
+
+    return render(request,
+        'shennong/recipe_full_2col.html',
         {
             'recipe': recipe,
             'ingredient_list': ingredient_list,

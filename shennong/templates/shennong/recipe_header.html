@@ -3,8 +3,14 @@
 {% block body %}
 
 <h1>
-    <a href="{% url 'recipe_full' recipe.id %}">
-        {{ recipe.chinese }}, {{ recipe.pinyin }}
+    {{ recipe.chinese }}, {{ recipe.pinyin }}
+    &nbsp; &nbsp; &nbsp;
+    <a href="{% url 'recipe_full_1col' recipe.id %}">
+        (Display 1 Col)
+    </a>
+    &nbsp; &nbsp; &nbsp;
+    <a href="{% url 'recipe_full_2col' recipe.id %}">
+        (Display 2 Cols)
     </a>
 </h1>
 <p>

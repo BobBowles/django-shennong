@@ -8,9 +8,13 @@ urlpatterns = [
         views.recipe_header,
         name='recipe_header'
     ),
-    re_path(r'^(?P<id>[0-9]+)/recipe_full/$',
-        views.recipe_full,
-        name='recipe_full'
+    re_path(r'^(?P<id>[0-9]+)/recipe_full_1col/$',
+        views.recipe_full_1col,
+        name='recipe_full_1col'
+    ),
+    re_path(r'^(?P<id>[0-9]+)/recipe_full_2col/$',
+        views.recipe_full_2col,
+        name='recipe_full_2col'
     ),
     re_path(r'^herb/$', views.herb_index, name='herb_index'),
     re_path(r'^(?P<id>[0-9]+)/herb_header/$',
