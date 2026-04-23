@@ -12,4 +12,9 @@ MANIFEST
 
 # local files
 ISSUES.txt
+
+# database dumps
 shennong_*.json
+
+# image manipulation files
+*.xcf
