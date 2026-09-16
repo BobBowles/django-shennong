@@ -29,9 +29,9 @@ Requirements
 ------------
 
 The original version was developed with Django 1.8.16. The app has since been
-upgraded to run under Django 4.2.x, where x is the latest security update. It
-should run comfortably under all versions of Django from 2.0 to 4.2.x It is no
-longer compatible with Django < 2.0. The recommended Django is now 4.2.x < 5.
+upgraded to run under Django 5.2.x, where x is the latest security update. It
+should run comfortably under all versions of Django from 2.0 to 5.2.x It is no
+longer compatible with Django < 2.0. The recommended Django is now 5.2.x
 
 Development was initially done on Python 3.4. Since Python 3.4 went into EOL
 the app has been shown to run happily on more modern Pythons up to 3.12 with no
